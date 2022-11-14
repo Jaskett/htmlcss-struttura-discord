@@ -97,16 +97,44 @@ a {
     margin: auto;
 }
 
+/* Sezione 6 */
+.section6 {
+    padding: 20px;
+}
+
+.section6 > .box4 {
+    width: 700px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+}
+
+.section6 > .box4 > .box-sx-2 {
+    flex-grow: 1;
+}
+
+.section6 > .box4 > .box-dx-2 {
+    flex-grow: 2;
+    display: flex;
+}
+
+.underbox {
+    border: 1px dashed white;
+    flex-grow: 1;
+}
+
 /* Colori:
     Celeste: #add8e6
     Arancione: #daa520
     Blu: #00008b
-    Rosa: #ee82ee
+    Violetto: #ee82ee
     Azzurro scuro: #1e90ff
     Rosa chiaro: #ffc0cb
     Grigio chiaro: #d3d3d3
     Verde scuro: #228b22
-    Grigio scuro: #23272a */
+    Grigio scuro: #23272a
+    Rosa scuro: #f08080 
+    Celeste scuro: #20b2aa */
 
 /* Debug */
 .debug header {
@@ -117,7 +145,15 @@ a {
     background-color: #daa520;
 }
 
-.debug header .logo, .link, .login {
+.debug header .logo {
+    border: 1px dashed black;
+}
+
+.debug header .link{
+    border: 1px dashed black;
+}
+
+.debug header.login {
     border: 1px dashed black;
 }
 
@@ -141,7 +177,7 @@ a {
 }
 
 .debug main .underline {
-    background-color: #23272a;
+    background-color: #d3d3d3;
 }
 
 .debug main .section5 {
@@ -151,4 +187,17 @@ a {
 .debug main .box3 {
     background-color: #228b22;
     border: 1px dashed black;
+}
+
+.debug main .section6 {
+    background-color: #23272a;
+}
+
+.debug main .box4 .box-sx-2 {
+    background-color: #f08080;
+    border: 1px dashed black;
+}
+
+.debug main .box4 .box-dx-2 {
+    background-color: #20b2aa;
 }
