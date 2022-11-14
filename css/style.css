@@ -77,11 +77,11 @@ a {
     border: 1px dashed black;
 }
 
-.debug main .section1-debug {
+.debug main .section1 {
     background-color: #00008b;
 }
 
-.debug main .box-debug {
+.debug main .box {
     background-color: #ee82ee;
     border: 1px dashed black;
 }
