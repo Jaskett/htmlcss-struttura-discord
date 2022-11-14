@@ -69,27 +69,19 @@ a {
     background-color: #add8e6;
 }
 
-.debug .header-box {
+.debug header .header-box {
     background-color: #daa520;
 }
 
-.debug .logo-debug {
+.debug header .logo, .link, .login {
     border: 1px dashed black;
 }
 
-.debug .link-debug {
-    border: 1px dashed black;
-}
-
-.debug .login-debug {
-    border: 1px dashed black;
-}
-
-.debug .section1-debug {
+.debug main .section1-debug {
     background-color: #00008b;
 }
 
-.debug .box-debug {
+.debug main .box-debug {
     background-color: #ee82ee;
     border: 1px dashed black;
 }
