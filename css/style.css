@@ -41,6 +41,18 @@ a {
     padding: 5px;
 }
 
+/* Main */
+/* Section 1 */
+.section1 {
+    padding: 20px;
+}
+
+.section1 > .box {
+    width: 600px;
+    height: 200px;
+    margin: auto;
+}
+
 /* Colori:
     Celeste: #add8e6
     Arancione: #daa520
@@ -61,6 +73,23 @@ a {
     background-color: #daa520;
 }
 
-.logo-box, .link-box, .login-box {
+.debug .logo-debug {
+    border: 1px dashed black;
+}
+
+.debug .link-debug {
+    border: 1px dashed black;
+}
+
+.debug .login-debug {
+    border: 1px dashed black;
+}
+
+.debug .section1-debug {
+    background-color: #00008b;
+}
+
+.debug .box-debug {
+    background-color: #ee82ee;
     border: 1px dashed black;
 }
