@@ -53,6 +53,37 @@ a {
     margin: auto;
 }
 
+.subsection2 {
+    padding: 20px;
+}
+
+.subsection2 > .box2 {
+    width: 700px;
+    height: 200px;
+    margin: auto;
+    display: flex;
+}
+
+.box-sx {
+    flex-grow: 2;
+}
+
+.box-dx {
+    flex-grow: 1;
+}
+
+.underline {
+    padding: 20px;
+}
+
+.underline > .box2 {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 700px;
+    height: 200px;
+    margin: auto;
+}
+
 /* Colori:
     Celeste: #add8e6
     Arancione: #daa520
@@ -87,6 +118,15 @@ a {
 }
 
 .debug main .box-sx {
-    
+    background-color: #1e90ff;
     border: 1px dashed black;
+}
+
+.debug main .box-dx {
+    background-color: #ffc0cb;
+    border: 1px dashed black;
+}
+
+.debug main .underline {
+    background-color: #23272a;
 }
