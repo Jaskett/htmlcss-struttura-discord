@@ -86,6 +86,17 @@ a {
     margin: auto;
 }
 
+/* Sezione 5 */
+.section5 {
+    padding: 20px;
+}
+
+.section5 > .box3 {
+    width: 700px;
+    height: 400px;
+    margin: auto;
+}
+
 /* Colori:
     Celeste: #add8e6
     Arancione: #daa520
@@ -131,4 +142,13 @@ a {
 
 .debug main .underline {
     background-color: #23272a;
+}
+
+.debug main .section5 {
+    background-color: #d3d3d3;
+}
+
+.debug main .box3 {
+    background-color: #228b22;
+    border: 1px dashed black;
 }
