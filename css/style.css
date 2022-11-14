@@ -5,6 +5,42 @@
     box-sizing: border-box;
 }
 
+/* Header */
+header {
+    padding: 10px;
+}
+
+.header-box {
+    margin: auto;
+    display: flex;
+}
+
+.logo {
+    padding: 5px;
+    line-height: 28px;
+    flex-grow: 1;
+}
+
+.link {
+    padding: 5px;
+    line-height: 28px;
+    flex-grow: 3;
+    text-align: center;
+}
+
+.login {
+    padding: 5px;
+    line-height: 28px;
+    flex-grow: 1;
+    text-align: end;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
 /* Colori:
     Celeste: #add8e6
     Arancione: #daa520
@@ -17,6 +53,14 @@
     Grigio scuro: #23272a */
 
 /* Debug */
-.debug {
-    
+.debug header {
+    background-color: #add8e6;
+}
+
+.debug .header-box {
+    background-color: #daa520;
+}
+
+.logo-box, .link-box, .login-box {
+    border: 1px dashed black;
 }
