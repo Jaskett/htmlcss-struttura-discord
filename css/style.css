@@ -47,7 +47,7 @@ a {
     padding: 20px;
 }
 
-.section1 > .box {
+.section1 > .box1 {
     width: 600px;
     height: 200px;
     margin: auto;
@@ -81,7 +81,12 @@ a {
     background-color: #00008b;
 }
 
-.debug main .box {
+.debug main .box1 {
     background-color: #ee82ee;
+    border: 1px dashed black;
+}
+
+.debug main .box-sx {
+    
     border: 1px dashed black;
 }
