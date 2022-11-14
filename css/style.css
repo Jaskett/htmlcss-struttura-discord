@@ -123,6 +123,26 @@ a {
     flex-grow: 1;
 }
 
+/* Footer */
+footer {
+    padding: 20px;
+}
+
+.footer-box {
+    width: 700px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-footer {
+    margin: 15px 0;
+}
+
+.button-footer {
+    margin: 15px 0;
+}
+
 /* Colori:
     Celeste: #add8e6
     Arancione: #daa520
@@ -200,4 +220,23 @@ a {
 
 .debug main .box4 .box-dx-2 {
     background-color: #20b2aa;
+}
+
+.debug footer {
+    background-color: #23272a;
+    border-top: 1px solid white;
+}
+
+.debug footer .footer-box {
+    background-color: #add8e6;
+}
+
+.debug footer .logo-footer {
+    background-color: #ffc0cb;
+    border: 1px dashed black;
+}
+
+.debug footer .button-footer {
+    background-color: #ffc0cb;
+    border: 1px dashed black;
 }
