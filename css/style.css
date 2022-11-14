@@ -53,6 +53,7 @@ a {
     margin: auto;
 }
 
+/* Sezione 2 e 4 */
 .subsection2 {
     padding: 20px;
 }
@@ -72,6 +73,7 @@ a {
     flex-grow: 1;
 }
 
+/* Sezione 3 */
 .underline {
     padding: 20px;
 }
